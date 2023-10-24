@@ -1,10 +1,10 @@
 var cacheName = 'secplorer1-pwa';
-var filesToCache = [
-  './dist/',
-  './dist/index.html',
-  './dist/secplorer1.js',
-  './dist/secplorer1_bg.wasm',
-];
+//var filesToCache = [
+//  './dist/',
+//  './dist/index.html',
+//  './dist/secplorer1.js',
+//  './dist/secplorer1_bg.wasm',
+//];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function (e) {
